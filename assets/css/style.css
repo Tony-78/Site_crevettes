@@ -1,0 +1,34 @@
+
+.fb-color {
+    background-color: #3B5998;
+    font-size: 1.3rem;
+}
+
+.badge {
+    border-radius: 1.8rem;
+    padding: 0.4rem;
+}
+body{
+    background-color: #F5D9D6;
+}
+a
+{
+    color: white;
+}
+.background-website{
+    background-image: url("../img/bgg.png");
+    border-radius: 1rem;
+    margin-left: 8rem;
+}
+.logo {
+    width: 23rem;
+}
+.foot
+{
+    background: url("../img/footer.png") no-repeat;
+    font-size: 1.3rem;
+    list-style: none;
+}
+.footer-name {
+    padding-left: 5rem;
+}
