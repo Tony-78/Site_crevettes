@@ -10,27 +10,113 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Site crevettes</title>
+    <title>Bubba Gumb - Élevage</title>
 </head>
 
 <body>
-    
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <a href="index.html"><img class="mt-4 ml-4 logo" src="assets/img/logo.png" alt="Logo crevettes"
+                        title="Bubba Gump"></a>
+            </div>
+            <div class="col-9 d-flex flex-column">
+                <div class="h1 font-weight-bold text-right mt-4 mr-3 d-none d-lg-block">
+                    Suivez-nous sur <a target="_blank" href="http://facebook.com"><span
+                            class="badge align-middle fb-color text-light ml-1 mb-1 p-2">facebook</span></a>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light w-100 align-self-center h-100">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse background-website w-100" id="navbarSupportedContent">
+                        <ul class="navbar-nav justify-content-around w-100">
+                            <li class="nav-item mx-5">
+                                <a class="nav-link text-white font-weight-bold h4" href="elevage.html">Notre élevage</a>
+                            </li>
+                            <li class="nav-item mx-5">
+                                <a class="nav-link text-white font-weight-bold h4" href="crevettes.html">Nos
+                                    crevettes</a>
+                            </li>
+                            <li class="nav-item mx-5">
+                                <a class="nav-link text-white font-weight-bold h4" href="aquariums.html">Nos
+                                    aquariums</a>
+                            </li>
+                            <li class="nav-item mx-5">
+                                <a class="nav-link text-white font-weight-bold h4" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <section class="container-fluid section-index">
+        <div class="row col ml-5">
+            <div class="mb-2">
+                <img src="assets/img/elevage_01.png" alt="bubbagump-elevage" title="bubbagump-elevage">
+                <img class="mx-5" src="assets/img/elevage_02.png" alt="bubbagump-elevage" title="bubbagump-elevage">
+                <img src="assets/img/elevage_03.png" alt="bubbagump-elevage" title="bubbagump-elevage">
+            </div>
+        </div>
+        <div class="row col mt-5 ml-5">
+            <div
+                class="section-text-elevage bg-text-index-elevage border border-secondary font-weight-bold h4 p-4 pl-5">
+                <p>ici le texte racontant comment nos crevettes sont élevées depuis 1920. Savoir-faire qui se transmet
+                    de génération en génération depuis 1920.<br><br></p>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed,
+                    dolor.<br>
+                    Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.<br>
+                    Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet
+                    erat.<br>
+                </p>
+            </div>
+        </div>
+    </section>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+
+
+    <footer class="container-fluid mt-5 d-none d-lg-block">
+        <ul class="row w-100 justify-content-around foot-responsive mx-auto py-3">
+            <li class="text-white font-weight-bold h4 col-6">Contact : 02 35 10 20 30 | Mail : bubbagump@starshrimp.com</li>
+            <li class="text-white font-weight-bold h4 col-2">Mentions légales</li>
+            <li class="text-white font-weight-bold h4 col-3 footer-name">VictorThéoLaManu</li>
+        </ul>
+    </footer>
+
+    <footer class="container-fluid mt-5 d-lg-none">
+        <ul class="justify-content-around foot-responsive p-3 text-center">
+            <li class="text-white font-weight-bold h4">Contact : 02 35 10 20 30</li>
+            <li class="text-white font-weight-bold h4">Mail : bubbagump@starshrimp.com</li>
+            <li class="text-white font-weight-bold h4">Mentions légales</li>
+            <li class="text-white font-weight-bold h4">VictorThéoLaManu</li>
+        </ul>
+    </footer>
+
+    <body>
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
+
+        <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
-</body>
+    </body>
 
 </html>

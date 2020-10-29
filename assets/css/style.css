@@ -1,4 +1,6 @@
 
+/* INDEX */
+
 .fb-color {
     background-color: #3B5998;
     font-size: 1.3rem;
@@ -16,7 +18,7 @@ a
     color: white;
 }
 .background-website{
-    background-image: url("../img/bgg.png");
+    background: url("../img/bgg.png") no-repeat;
     border-radius: 1rem;
     margin-left: 8rem;
 }
@@ -32,3 +34,77 @@ a
 .footer-name {
     padding-left: 5rem;
 }
+
+
+.section-index, .section-reservation  {
+    margin-left: 29rem;
+}
+
+.foot-responsive {
+    background-color: rgba(33,121,171);
+    list-style: none;
+}
+
+.border-nav {
+    border-radius: 2rem;
+}
+
+
+/* ELEVAGE */
+
+.section-text-elevage {
+    width: 72.33rem;
+    height: 23rem;
+}
+
+
+.bg-text-index-elevage {
+   background-color: #FBF2F2;
+}
+
+.bg-text-shrimp-aquarium {
+    background-color: #E8E1E1;
+    height: 11.5rem;
+}
+
+.background-button-reserve-devis {
+    background-color: #0C5188;
+}
+
+
+
+/* RESERVATION */
+
+.section-reservation-right {
+    margin-left: 8rem;
+}
+
+/* CONTACT */
+
+.title-contact {
+    color:#0C5188;
+}
+
+.input-contact::placeholder {
+    color:#73A1C2;
+}
+
+.input-contact {
+    border: 2px solid #73A1C2;
+    color:#73A1C2
+}
+
+.background-button-contact {
+    background-color: #0C5188;
+}
+
+.contact-info {
+    color:#0C5188;
+}
+
+.contact-info a {
+    color:#0C5188;
+}
+
+
+
